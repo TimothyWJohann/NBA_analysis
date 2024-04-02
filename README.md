@@ -22,4 +22,6 @@ Files:
 * NBA_predictive_model.ipynb contains the following
   * code to generate NBA_numeric.csv and NBA_numeric_slim.csv
   * an analysis of home team advantage during the pandemic and outside the pandemic
-  
+  * training and evaluation of a k nearest neighbors model to predict the spread in a given game
+
+This is a work in progress with plans to train and evaluate other algorithms including SVM, neural networks, random forests, and boosting.
