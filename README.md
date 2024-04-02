@@ -16,4 +16,10 @@ These were combined into a single CSV file using using code not currently includ
 
 Files:
 * since_2005_data_with_scores.csv is the raw merged data described above
+* NBA_numeric.csv is the numeric only data cleaned for missing data and with 2021 results (COVID) removed.
+* NBA_numeric_slim.csv is NBA_numeric.csv with redundant features (correlation > 90%) removed.
 * STD_against_spread.csv is data manually pulled from (https://www.boydsbets.com/ats-margin-standard-deviations-by-point-spread/, accessed 04022024) to estimate avearge error of oddsmakers.  This is used to evaluate the performance of predictive models.
+* NBA_predictive_model.ipynb contains the following
+  *code to generate NBA_numeric.csv and NBA_numeric_slim.csv
+  *an analysis of home team advantage during the pandemic and outside the pandemic
+  
