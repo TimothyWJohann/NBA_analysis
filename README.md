@@ -20,6 +20,6 @@ Files:
 * NBA_numeric_slim.csv is NBA_numeric.csv with redundant features (correlation > 90%) removed.
 * STD_against_spread.csv is data manually pulled from (https://www.boydsbets.com/ats-margin-standard-deviations-by-point-spread/, accessed 04022024) to estimate avearge error of oddsmakers.  This is used to evaluate the performance of predictive models.
 * NBA_predictive_model.ipynb contains the following
-    * code to generate NBA_numeric.csv and NBA_numeric_slim.csv
-    * an analysis of home team advantage during the pandemic and outside the pandemic
+  * code to generate NBA_numeric.csv and NBA_numeric_slim.csv
+  * an analysis of home team advantage during the pandemic and outside the pandemic
   
