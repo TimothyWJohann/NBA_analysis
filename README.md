@@ -23,6 +23,7 @@ Files:
   * code to generate NBA_numeric.csv and NBA_numeric_slim.csv
   * an analysis of home team advantage during the pandemic and outside the pandemic
   * training and evaluation of a k nearest neighbors model to predict the spread in a given game
-* NBA_predictive_model_SVM.ipynb contains a training and evaluation of support vector machine (regressor) model for prediction of spread
+* NBA_predictive_model_SVM.ipynb contains a training and evaluation of support vector regressor, random forest regressor, voting, and stacking models.
+* Clustering has some very initial efforts trying to cluster the data using KMeans in hopes of creating additional features.
 
 This is a work in progress with plans to train and evaluate other algorithms including SVM, neural networks, random forests, and boosting.
